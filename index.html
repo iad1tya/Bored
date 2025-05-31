@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Getting Bored ??">
+    <meta property="og:description" content="I am here to kill your boredom">
+    <meta property="og:image" content="https://bored.iad1tya.cyou/graph.png">
+    <meta property="og:url" content="https://bored.iad1tya.cyou">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="gif.gif">
+    <title>Getting Bored ??</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .fun-button, .gender-button, .continue-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #8c52ff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+            touch-action: manipulation;
+            -webkit-tap-highlight-color: transparent;
+            margin: 10px;
+        }
+        .fun-button:hover, .gender-button:hover, .continue-button:hover {
+            transform: scale(1.05);
+            background-color: #8c52ff;
+        }
+        .heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+            padding: 0 15px;
+        }
+        .gender-screen, .confirmation-screen, .final-screen {
+            display: none;
+            text-align: center;
+        }
+        .gif-container {
+            margin: 20px 0;
+        }
+        #initial-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        @media (max-width: 480px) {
+            .fun-button, .gender-button, .continue-button {
+                padding: 12px 24px;
+                font-size: 16px;
+            }
+            .heading {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body oncontextmenu="return false">
+    <div id="initial-screen">
+        <h1 class="heading">Are you getting bored ??</h1>
+        <button class="fun-button" onclick="showGenderScreen()">Click for Fun!</button>
+    </div>
+
+    <div id="gender-screen" class="gender-screen">
+        <h1 class="heading">Choose your gender</h1>
+        <button class="gender-button" onclick="showConfirmation('male')">Male</button>
+        <button class="gender-button" onclick="showConfirmation('female')">Female</button>
+    </div>
+
+    <div id="confirmation-screen" class="confirmation-screen">
+        <h1 class="heading" id="confirmation-text"></h1>
+        <button class="continue-button" onclick="proceed()">Continue</button>
+    </div>
+
+    <div id="final-screen" class="final-screen">
+        <div class="gif-container">
+            <img src="gif.gif" alt="Celebration">
+        </div>
+        <h1 class="heading">Enjoy!</h1>
+    </div>
+
+    <audio id="celebration-sound" src="sound.mp3"></audio>
+
+    <script>
+        function showGenderScreen() {
+            document.getElementById('initial-screen').style.display = 'none';
+            document.getElementById('gender-screen').style.display = 'block';
+        }
+
+        function showConfirmation(gender) {
+            document.getElementById('gender-screen').style.display = 'none';
+            document.getElementById('confirmation-screen').style.display = 'block';
+            const confirmationText = gender === 'male' ? 
+                'If you are not gay, click continue' : 
+                'If you are not lesbian, click continue';
+            document.getElementById('confirmation-text').textContent = confirmationText;
+        }
+
+        function proceed() {
+            document.getElementById('confirmation-screen').style.display = 'none';
+            document.getElementById('final-screen').style.display = 'block';
+            const sound = document.getElementById('celebration-sound');
+            sound.play();
+            setTimeout(() => {
+                window.open('https://bored.iad1tya.cyou/sorry', '_blank');
+            }, 500);
+        }
+    </script>
+</body>
+</html>

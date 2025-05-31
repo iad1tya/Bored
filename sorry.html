@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Getting bored ??</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="gif.gif">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 6vw;
+            margin: 0;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+        }
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 8vw;
+            }
+            img {
+                max-width: 90%;
+                width: 300px;
+            }
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var link;
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                link = 'whatsapp://send?text=https://bored.iad1tya.cyou';
+            } else {
+                link = 'https://wa.me/send?text=https://bored.iad1tya.cyou';
+            }
+            
+            var a = document.createElement('a');
+            a.href = link;
+            a.style.display = 'none';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+
+            var countdown = 20;
+            var timer = setInterval(function() {
+                countdown--;
+                if (countdown <= 0) {
+                    clearInterval(timer);
+                    window.close();
+                }
+            }, 1000);
+            window.onbeforeunload = function(e) {
+                if (countdown > 0) {
+                    e.preventDefault();
+                    return "Please wait for " + countdown + " seconds";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <img src="sorry.gif" alt="Sorry">
+</body>
+</html>
