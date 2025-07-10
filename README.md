@@ -27,7 +27,7 @@ A simple web project to help you when you're feeling bored!
 2. Open `index.html` in your web browser
 3. Enjoy!
 
-## ⚠️ Fun Warning! ⚠️
+## Warning!
 
 >Hey there, This project is for *entertainment purposes only*. Please don't unleash this chaos in your classroom or office - your teachers and boss might not appreciate the "creative distraction." However, if your friend leaves their laptop unattended... well, that's their lesson in cybersecurity!
 
