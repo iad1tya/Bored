@@ -1,5 +1,7 @@
 # Bored Project
 
+![Bored Project GIF](gif.gif)
+
 A simple web project to help you when you're feeling bored!
 
 ## Features
