@@ -29,7 +29,7 @@ A simple web project to help you when you're feeling bored!
 
 ## ⚠️ Fun Warning! ⚠️
 
-> 🤪 Hey there, mischief maker! This project is for *entertainment purposes only*. Please don't unleash this chaos in your classroom or office - your teachers and boss might not appreciate the "creative distraction." However, if your friend leaves their laptop unattended... well, that's their lesson in cybersecurity! 😈
+>Hey there, This project is for *entertainment purposes only*. Please don't unleash this chaos in your classroom or office - your teachers and boss might not appreciate the "creative distraction." However, if your friend leaves their laptop unattended... well, that's their lesson in cybersecurity!
 
 ## License
 
