@@ -1,4 +1,4 @@
-![Bored Project GIF](gif.gif)
+![Bored Project GIF](assets/images/gif.gif)
 
 # Bored Project
 
@@ -13,9 +13,9 @@
 ```
 ├── index.html      # Main entry point
 ├── sorry.html      # Sorry page
-├── gif.gif         # Animation file
+├── assets/images/gif.gif         # Animation file
 ├── sorry.gif       # Sorry animation
-├── sound.mp3       # Audio file
+├── assets/sound/sound.mp3       # Audio file
 └── graph.png       # Graph image
 ```
 
