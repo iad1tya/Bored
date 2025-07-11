@@ -1,10 +1,10 @@
-# Bored Project 🎉
-
 ![Bored Project GIF](assets/images/gif.gif)
+
+# Bored Project
 
 A fun, interactive web project with a Chrome extension that helps you "fight boredom" in a playful way!
 
-## 🌟 Features
+## Features
 
 ### 1. Interactive Web App
 - Engaging user interface with fun animations
@@ -17,7 +17,7 @@ A fun, interactive web project with a Chrome extension that helps you "fight bor
 - Plays custom sound effects
 - Perfect for pranking friends (responsibly!)
 
-## 🏗️ Project Structure
+## Project Structure
 ```
 ├── assets/
 │   ├── bored.png
@@ -37,7 +37,7 @@ A fun, interactive web project with a Chrome extension that helps you "fight bor
 └── sorry.html
 ```
 
-## 🚀 Extension Installation
+## Extension Installation
 
 1. Download the extension ZIP file from the [extension page](https://bored.iad1tya.cyou/extension)
 2. Extract the ZIP file to a permanent folder
@@ -46,6 +46,6 @@ A fun, interactive web project with a Chrome extension that helps you "fight bor
 5. Click "Load unpacked" and select the extracted folder
 6. The extension is now ready to use!
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is created for entertainment purposes only. Please use responsibly and avoid using it in professional or educational settings where it might cause disruption. It's meant to be a fun way to prank friends (when they leave their devices unattended), but remember to always respect others' boundaries and property.
