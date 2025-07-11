@@ -1,34 +1,51 @@
+# Bored Project 🎉
+
 ![Bored Project GIF](assets/images/gif.gif)
 
-# Bored Project
+A fun, interactive web project with a Chrome extension that helps you "fight boredom" in a playful way!
 
-## Features
+## 🌟 Features
 
-- Interactive web interface
-- Sound effects
-- Animated GIFs
+### 1. Interactive Web App
+- Engaging user interface with fun animations
+- Gender-based interaction flow
+- Sound effects and GIF animations
+- Surprise redirects and WhatsApp sharing integration
 
-## Project Structure
+### 2. Chrome Extension
+- Mutes media playback
+- Plays custom sound effects
+- Perfect for pranking friends (responsibly!)
 
+## 🏗️ Project Structure
 ```
+├── assets/
+│   ├── bored.png
+│   └── images/
+│       ├── gif.gif
+│       ├── graph.png
+│       ├── sorry.gif
+│       └── sound/
+├── extension/
+│   ├── assets/
+│   │   ├── Bored-Extension.zip
+│   │   ├── bored.png
+│   │   ├── dev.png
+│   │   └── unpack.png
+│   └── index.html
 ├── index.html
-├── sorry.html 
-├── assets/images/gif.gif
-├── sorry.gif
-├── assets/sound/sound.mp3
-└── graph.png
+└── sorry.html
 ```
 
-## Getting Started
+## 🚀 Extension Installation
 
-1. Clone the repository
-2. Open `index.html` in your web browser
-3. Enjoy!
+1. Download the extension ZIP file from the [extension page](https://bored.iad1tya.cyou/extension)
+2. Extract the ZIP file to a permanent folder
+3. Open Chrome and navigate to `chrome://extensions`
+4. Enable "Developer mode" in the top right corner
+5. Click "Load unpacked" and select the extracted folder
+6. The extension is now ready to use!
 
-## Warning!
+## ⚠️ Disclaimer
 
->Hey there, This project is for *entertainment purposes only*. Please don't unleash this chaos in your classroom or office - your teachers and boss might not appreciate the "creative distraction." However, if your friend leaves their laptop unattended... well, that's their lesson in cybersecurity!
-
-## License
-
-This project is open source and available under the MIT License.
+This project is created for entertainment purposes only. Please use responsibly and avoid using it in professional or educational settings where it might cause disruption. It's meant to be a fun way to prank friends (when they leave their devices unattended), but remember to always respect others' boundaries and property.
