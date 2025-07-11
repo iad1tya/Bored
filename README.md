@@ -11,12 +11,12 @@
 ## Project Structure
 
 ```
-├── index.html      # Main entry point
-├── sorry.html      # Sorry page
-├── assets/images/gif.gif         # Animation file
-├── sorry.gif       # Sorry animation
-├── assets/sound/sound.mp3       # Audio file
-└── graph.png       # Graph image
+├── index.html
+├── sorry.html 
+├── assets/images/gif.gif
+├── sorry.gif
+├── assets/sound/sound.mp3
+└── graph.png
 ```
 
 ## Getting Started
